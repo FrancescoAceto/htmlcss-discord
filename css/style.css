@@ -18,8 +18,9 @@
     flex-direction: row;
     justify-content: space-between;
 
-    background-color: blue;
+    background-color:#404eed;
 }
+
 
 nav .inner ul{
     list-style-type: none;
@@ -28,8 +29,12 @@ nav .inner ul{
 .logo{
     width: 100px;
     height: 70px;
-    background-color: aqua;
-    text-align: center;
+    padding-top: 18px;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
 }
 
 .links ul{
@@ -40,33 +45,41 @@ nav .inner ul{
 }
 
 .login{
-    width: 100px;
-    height: 70px;
-
+    width: 70px;
+    height: 35px;
     text-align: center;
+    padding-top: 7px;
+
+    border-radius: 35px;
+
 
     background-color: rgb(255, 255, 255);
 }
 
 .inner2{
     padding-top: 120px;
-    height: 400px;
+    height: 650px;
     width: 100%;
 
     display: flex;
     flex-direction: column;
 
-    background-color: blue;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 .Title{
-    color: white;
     font-size: 23px;
+    color: white;
 }
 
 .paragraph{
     color: white;
     text-align: center;
+
+    width: 700px;
+    font-size: 20px;
+    line-height: 1.5em;
 }
 
 .links2 ul{
@@ -83,35 +96,50 @@ nav .inner ul{
 }
 
 .blackbutton{
-    background-color: black;
+    background-color: #23272a;
     padding: 15px;
     border-radius: 25px;
     color: white;
 }
 
 .inner3{
-    padding-top: 120px;
-    height: 400px;
+    height: 650px;
     width: 100%;
 
     display: flex;
-    flex-direction: row;
-    gap: 150px;
+}
 
-    background-color: rgb(255, 255, 255);
+.inner3-5{
+    height: 650px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row-reverse;
+
+     background-color: #f6f6f6;
 }
 
 .big-img{
-    width: 50%;
+    width: 5%;
     height: 300px;
-    background-color: aqua;
-    text-align: center;
 }
 
+.big-img2{
+    height: 300px;
+}
+
+
 .text-sec{
-    width: 50%;
+    width: 20%;
     height: 375px;
-    background-color: aqua;
+    padding-top: 30px;
+}
+
+.text-sec2{
+    width: 20%;
+    height: 375px;
+    padding-top: 30px;
+    padding-left: ;
 }
 
 .Title2{
@@ -121,12 +149,15 @@ nav .inner ul{
 
 .paragraph2{
     font-size: 20px;
+    line-height: 1.5em;
 }
 
 .inner4{
     display: flex;
+    height: 650px;
     flex-direction: column;
-    gap: 100px;
+    width: 100%;
+    background-color: #f6f6f6;
 }
 
 
@@ -138,7 +169,66 @@ nav .inner ul{
     display: flex;
     flex-direction: row;
 
-    background-color: blue;
+    background-color:#23272a
+}
+
+.inner6{
+    padding-top: 120px;
+    height: 650px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6
+}
+
+.cyanbutton{
+    background-color: #404eed;
+    padding: 15px;
+    border-radius: 25px;
+    color: white;
+}
+
+.Title3{
+    text-align: center;
+    font-size: 50px;
+}
+
+.Title4{
+ background-image: url(../img/stars.svg);
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h3{
+    color: #404eed;
+}
+
+.bottominner{
+    height: 80px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color:#23272a
+}
+
+.login2{
+    width: 70px;
+    height: 35px;
+    text-align: center;
+    padding-top: 7px;
+
+    border-radius: 35px;
+
+
+    background-color:#404eed
 }
 
 
