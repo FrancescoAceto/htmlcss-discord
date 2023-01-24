@@ -5,14 +5,12 @@
 }
 
 .container{
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+    min-width: 1000px;
     margin-bottom: 200px;
 }
 
 
-#inner{
+.inner{
     height: 80px;
     width: 100%;
 
@@ -23,25 +21,25 @@
     background-color: blue;
 }
 
-nav #inner ul{
+nav .inner ul{
     list-style-type: none;
 }
 
-#logo{
+.logo{
     width: 100px;
     height: 70px;
     background-color: aqua;
     text-align: center;
 }
 
-#links ul{
+.links ul{
     display: flex;
     flex-direction: row;
     color: white;
     gap: 27px;
 }
 
-#login{
+.login{
     width: 100px;
     height: 70px;
 
@@ -50,7 +48,7 @@ nav #inner ul{
     background-color: rgb(255, 255, 255);
 }
 
-#inner2{
+.inner2{
     padding-top: 120px;
     height: 400px;
     width: 100%;
@@ -61,37 +59,37 @@ nav #inner ul{
     background-color: blue;
 }
 
-#Title{
+.Title{
     color: white;
     font-size: 23px;
 }
 
-#paragraph{
+.paragraph{
     color: white;
     text-align: center;
 }
 
-#links2 ul{
+.links2 ul{
     list-style-type: none;
     display: flex;
     flex-direction: row;
     gap: 27px;
 }
 
-#whitebutton{
+.whitebutton{
     background-color: white;
     padding: 15px;
     border-radius: 25px;
 }
 
-#blackbutton{
+.blackbutton{
     background-color: black;
     padding: 15px;
     border-radius: 25px;
     color: white;
 }
 
-#inner3{
+.inner3{
     padding-top: 120px;
     height: 400px;
     width: 100%;
@@ -103,35 +101,36 @@ nav #inner ul{
     background-color: rgb(255, 255, 255);
 }
 
-#big-img{
+.big-img{
     width: 50%;
     height: 300px;
     background-color: aqua;
     text-align: center;
 }
 
-#text-sec{
+.text-sec{
     width: 50%;
     height: 375px;
     background-color: aqua;
 }
 
-#Title2{
+.Title2{
     font-size: 50px;
     margin-bottom: 30px;
 }
 
-#paragraph2{
+.paragraph2{
     font-size: 20px;
 }
 
-#inner4{
+.inner4{
     display: flex;
     flex-direction: column;
     gap: 100px;
 }
 
-#inner5{
+
+.inner5{
     padding-top: 120px;
     height: 500px;
     width: 100%;
